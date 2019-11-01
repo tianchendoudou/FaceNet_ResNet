@@ -396,5 +396,5 @@ def run_facenet():
             lr = lr / 3
             for param_group in optimizer.param_groups:
                 param_group['lr'] = lr
-print("start")
+print("start right now")
 run_facenet()
